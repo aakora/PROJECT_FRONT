@@ -1,0 +1,418 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body{
+    text-decoration: none;
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 100;
+    line-height: 1;
+    background-color: rgb(246, 246, 246);
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.dark {
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+
+.carousel-text-heading {
+    font-family: Heroic-Medium,Arial Narrow Bold,Franklin Gothic Medium,Franklin Gothic,Arial Narrow,HelveticaNeue,Helvetica,arial,sans-serif;
+    font-size: 6rem;
+    line-height: 6.9rem;
+    font-weight: 400;
+    transform: rotate(0deg) scale(1) skew(-8deg) translate(0);
+    letter-spacing: -1px;
+    line-height: 5rem;
+    color: #fff;
+    text-shadow: 0.1rem 0.1rem 0.5rem rgba(0,0,0,.3);
+    display: block;
+    padding-left: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.carousel-text-subheading {
+    font-family: Emirates-Bold,Helvetica,Arial,Lucida Grande,sans-serif;
+    padding-left: 0;
+    font-size: 3rem;
+    line-height: 3.45rem;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: normal;
+    transform: rotate(0deg) scale(1) skew(-13deg) translate(0);
+    color: #fff;
+    text-shadow: 0.1rem 0.1rem 0.5rem rgba(0,0,0,.3);
+    margin: 0;
+    letter-spacing: .2rem;
+}
+
+
+.button {
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    appearance: none!important;
+    white-space: normal;
+}
+
+.button-danger {
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: #c60c30;
+    color: #fff;
+}
+
+.login-button {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.61rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    display: inline;
+    /*float: right;*/
+    min-width: 15rem;
+    max-width: 100%;
+    width: auto;
+    margin: 1.4rem .5rem 2rem 0;
+    padding: 1.1rem;
+    min-height: 4rem;
+    height: auto;
+    font-weight: 500;
+}
+
+.carousel {
+    /*margin-top: 20px;*/
+}
+
+.carousel-style {
+    width: 100%;
+    height: 750px;
+}
+#content {
+    border: 1px solid green;
+    margin: 20px auto 20px auto;
+}
+
+.footer-border {
+    margin-top: 30px;
+    border-top: 2px solid #333333;
+}
+
+.footer {
+    background-color: #333333 !important;
+}
+
+.footer-text {
+    font-size: 0.8rem;
+}
+
+.nav-on-hover:hover {
+    background-color: rgba(0, 0, 0, 0.54);
+}
+.test-div {
+    color: #333;
+    border: 1px solid #c2c2c2;
+    background-color: #fff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: #e8e3e2 0 -5px 0 0 inset;
+}
+
+.service-title {
+
+    font-family: Heroic-Medium,Arial Narrow Bold,Franklin Gothic Medium,Franklin Gothic,Arial Narrow,HelveticaNeue,Helvetica,arial,sans-serif;
+    font-size: 6rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    font-size: 40px;
+    margin: 2rem 0;
+    display: block;
+    text-align: center;
+
+    font-weight: 400;
+    transform: rotate(0deg) scale(1) skew(-8deg) translate(0);
+    letter-spacing: -1px;
+    line-height: 5rem;
+    /*color: #fff;*/
+    text-shadow: 0.1rem 0.1rem 0.5rem rgba(0,0,0,.3);
+    display: block;
+    padding-left: 0;
+    margin: 0;
+    /*text-transform: uppercase;*/
+}
+
+.service-card, .service-card:hover {
+    background: #fff;
+    box-shadow: 0 0.2rem 0.4rem 0.2rem rgba(0,0,0,.1);
+    border-radius: .3rem;
+    margin: 1rem auto;
+    max-width: 100%;
+    /*width: 100%;*/
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    width: 90%;
+    height: 12%;
+
+}
+
+
+.card-image {
+    width: 100%;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+.card-details {
+    width:100%;
+    padding: 1.7rem;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.service-card__town {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.15rem;
+    font-weight: 700;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    color: #666;
+    hyphens: auto;
+    text-align: center;
+}
+
+.card-service-name {
+    font-family: Emirates-Bold,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 3rem;
+    line-height: 3.45rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 35px;
+    hyphens: auto;
+    letter-spacing: 0;
+    color: #333;
+    margin-top: 1.15rem;
+    margin-bottom: 1.15rem;
+}
+.card-service-description {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.38rem;
+    font-weight: 200;
+    margin-bottom: -.7rem;
+    letter-spacing: 0;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card-service-price {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.61rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+    color: #333;
+}
+
+.grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -24px;
+    letter-spacing: -.31em;
+}
+
+.featured-fares {
+    margin: 0 auto;
+    margin-top: 3.4rem;
+}
+
+.card-wrapper{
+    /*border: 1px solid red;*/
+    text-align: center;
+    width: 80%;
+    display: inline-block;
+}
+
+
+.card-division {
+    /*border: 1px solid yellow;*/
+    text-align: center;
+}
+
+.find-more {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 13px;
+    line-height: 1rem;
+    font-weight: 200;
+    background: #fff;
+    color: rgb(0, 0, 0);
+
+    box-shadow: 0 0.2rem 0.4rem 0.2rem rgba(0,0,0,.1);
+    border-radius: .2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.6em 1em;
+    position: absolute;
+    width: 25%;
+    height: 2rem;
+    bottom: 1.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-style: normal;
+
+}
+
+.find-more:hover{
+    text-decoration: none;
+    box-shadow: 0 0.2rem 0.4rem 0.2rem rgba(0, 0, 0, 0.21);
+    color: rgb(0, 0, 0);
+}
+
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+    padding: 30px;
+    max-width: 350px;
+    width: 100% !important;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    font-family: roboto;
+}
+
+.loginmodal-container h1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    height: 36px;
+    padding: 0 8px;
+    /* border-radius: 3px; */
+    /* -webkit-user-select: none;
+      user-select: none; */
+}
+
+.loginmodal-submit {
+    /* border: 1px solid #3079ed; */
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    padding: 17px 0px;
+    font-family: roboto;
+    font-size: 14px;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+    /* border: 1px solid #2f5bb7; */
+    border: 0px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-color: #357ae8;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity ease 0.5s;
+}
+
+.login-help{
+    font-size: 12px;
+}
+
+
+.logo {
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: #c60c30;
+    color: #fff;
+}
+
+
+
+

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <title>GEOFA</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark dark row p-0">
+      <div class=" logo col-md-3 p-0">
+          <a class="navbar-brand w-25 pl-3 text-white  text-uppercase mt-0" href="#">GEOFA</a>
+      </div>
+      <div class="col-md-9 m-0 p-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-on-hover text-white text-uppercase font-weight-bold" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-on-hover text-white text-uppercase font-weight-bold" href="cars.html">Cars</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-on-hover text-white text-uppercase font-weight-bold" href="location.html">LOCATION</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-on-hover text-white text-uppercase font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ABOUT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Get in touch</a>
+                <a class="dropdown-item" href="#">Special needs</a>
+                <a class="dropdown-item" href="#">Travel updates</a>
+                  <div class="dropdown-divider"></div>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary my-2 my-sm-0 text-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+</nav>
+
+<div >
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100 carousel-style" src="./parking.jpg" alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption m-auto">
+          <p class="carousel-text-subheading">Want to be a member?</p>
+          <h5 class="h3-responsive carousel-text-heading">Welcome to GEOFA</h5>
+          <div class="m-auto pt-3">
+          <button class="btn text-light button login-button button-danger my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#login-modal">Login</button>
+          <button class="btn my-2 my-sm-0 text-light button login-button button-danger" type="submit" data-toggle="modal" data-target="#signup-modal">SignUp</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100 carousel-style" src="./Car-Park.jpg" alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <p class="carousel-text-subheading">Second text</p>
+          <h3 class="h3-responsive carousel-text-heading">Strong mask</h3>
+          <div class="m-auto pt-3">
+            <button class="btn text-light button login-button button-danger my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#login-modal">Login</button>
+            <button class="btn my-2 my-sm-0 text-light button login-button button-danger" type="submit" data-toggle="modal" data-target="#signup-modal">SignUp</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100 carousel-style" src="./parking-2.jpg" alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <p class="carousel-text-subheading">Third text</p>
+          <h3 class="h3-responsive carousel-text-heading">Slight mask</h3>
+          <div class="m-auto pt-3">
+            <button class="btn text-light button login-button button-danger my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#login-modal">Login</button>
+            <button class="btn my-2 my-sm-0 text-light button login-button button-danger" type="submit" data-toggle="modal" data-target="#signup-modal">SignUp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+</div>
+
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="loginmodal-container">
+      <h1>Login to Your Account</h1><br>
+      <form>
+        <input type="text" name="user" placeholder="Username">
+        <input type="password" name="pass" placeholder="Password">
+        <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+      </form>
+
+      <div class="login-help">
+        <a href="#">Register</a> - <a href="#">Forgot Password</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+        <div class="loginmodal-container">
+          <h1>SignUp to GEOFA</h1><br>
+          <form>
+            <input type="text" name="email" placeholder="Email">
+            <input type="text" name="user" placeholder="Username">
+            <input type="password" name="pass" placeholder="Password">
+            <input type="password" name="pass_confirm" placeholder="Comfirm Password">
+            <input type="submit" name="signup" class="login loginmodal-submit" value="SignUp">
+          </form>
+
+          <div class="login-help">
+            <a href="#">Register</a> - <a href="#">Forgot Password</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<div id="content">
+
+  <h2 class="service-title">
+    The Hottest GEOFA Offers
+  </h2>
+  <ul class="featured-faresgrid">
+    <div class="row">
+
+      <div class="card-division col-md-6">
+      <li class="card-wrapper" >
+          <a class="service-card" href="#">
+            <img class="card-image" src="./parking.jpg">
+            <div class="card-details">
+                <p class="service-card__town">Kampala</p>
+                <h2 class="card-service-name"> Package One</h2>
+                <p class="card-service-description">Drive in class through the busiest city in Uganda</p>
+                <p class="card-service-price">From UGX 300000</p>
+
+            </div>
+          </a>
+      </li>
+        <a href="#" class="find-more">
+          <span aria-hidden="true">Find out more</span>
+        </a>
+
+      </div>
+
+      <div class="card-division col-md-6">
+      <li class="card-wrapper ">
+          <a class="service-card" href="#">
+              <img class="card-image" src="./parking.jpg">
+              <div class="card-details">
+                  <p class="service-card__town">Entebbe</p>
+                  <h2 class="card-service-name"> Package Two</h2>
+                  <p class="card-service-description">Own the most prestigious ride in the most prestigious town </p>
+                  <p class="card-service-price">From UGX 100000</p>
+
+              </div>
+          </a>
+      </li>
+
+        <a href="#" class="find-more">
+          <span aria-hidden="true">Find out more</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="card-division col-md-6">
+        <li class="card-wrapper">
+          <a class="service-card" href="#">
+            <img class="card-image" src="./parking.jpg">
+            <div class="card-details">
+              <p class="service-card__town">Gulu</p>
+              <h2 class="card-service-name"> Package Three</h2>
+              <p class="card-service-description">Travel to the top of the countrz at a low price</p>
+              <p class="card-service-price">From UGX 250000</p>
+
+            </div>
+          </a>
+        </li>
+
+        <a href="#" class="find-more">
+          <span aria-hidden="true">Find out more</span>
+        </a>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </ul>
+
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark footer ">
+
+
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5 footer-border">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold text-white">About GEOFA</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p class="text-justify text-white-50 footer-text">We are a foundation that is here to provide you with the most available and affordable rides</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold text-white">Book</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="text-white-50 footer-text" href="#!">Book car</a>
+          </p>
+          <p>
+            <a class="text-white-50 footer-text" href="#!">Planning your trip</a>
+          </p>
+          <p>
+            <a class="text-white-50 footer-text" href="#!">Transportation</a>
+          </p>
+          <p>
+            <a class="text-white-50 footer-text" href="#!">Travel services</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold text-white">Manage</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="text-white-50 footer-text" href="#!">Your Account</a>
+          </p>
+          <p>
+            <a class="text-white-50 footer-text" href="#!">Your booking</a>
+          </p>
+          <p>
+            <a class="text-white-50 footer-text" href="#">Shipping Rates</a>
+          </p>
+          <p>
+            <a class="text-white-50 footer-text" href="#!">Help</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold text-white">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p class="text-white-50 footer-text">
+            <i class="fa fa-home mr-3"></i> Kampala, Uganda</p>
+          <p class="text-white-50 footer-text">
+            <i class="fa fa-envelope mr-3"></i> aakora8@gmail.com</p>
+          <p class="text-white-50 footer-text">
+            <i class="fa fa-phone mr-3"></i> + 256779660240</p>
+          <p class="text-white-50 footer-text">
+            <i class="fa fa-print mr-3"></i> + 2567796602409</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+
+    <!-- Copyright -->
+
+    <div class="dark" style="border-top: 1px solid white;">
+      <div class="container">
+
+        <div class="footer-copyright text-center py-3 text-white">© 2018 Copyright:
+          <a> The GEOFA group. All rights reserved.</a>
+        </div>
+        <!-- Grid row-->
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+  </body>
+</html>
